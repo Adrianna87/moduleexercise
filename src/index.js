@@ -1,4 +1,4 @@
-import fruits from './fruits';
+import fruits from './foods';
 import { choice, remove } from './helpers';
 
 let fruit = choice(fruits);
@@ -9,4 +9,4 @@ console.log(`Delicious! May I have another?`);
 
 let inventory = remove(fruit, fruits);
 
-console.log(`I'm sorry, we're all out. We have ${inventory.length} left.`)
+console.log(`I'm sorry, we're all out. We have ${inventory} left.`)

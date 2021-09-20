@@ -3,4 +3,4 @@ let fruits = [
   "🍏", "🍐", "🍒", "🍓", "🥝", "🍅", "🥑",
 ];
 
-export default fruits
+export default fruits;
